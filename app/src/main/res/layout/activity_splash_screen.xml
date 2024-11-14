@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="@color/white">
+
+    <ImageView
+        android:id="@+id/iconImageView"
+        android:layout_width="wrap_content"
+        android:layout_height="250dp"
+        android:src="@drawable/healthcare"
+        android:layout_marginBottom="50dp"/>
+
+    <TextView
+        android:id="@+id/appNameText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="HEALTHCALC"
+        android:textStyle="bold"
+        android:textSize="24sp"
+        android:layout_marginTop="8dp"
+        android:textColor="@color/black" />
+
+    <TextView
+        android:id="@+id/welcomeText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:text="SELAMAT DATANG DI APLIKASI KALKULATOR KESEHATAN"
+        android:textSize="25sp"
+        android:layout_marginTop="8dp"
+        android:textColor="@color/black"
+        android:layout_marginBottom="50dp"/>
+
+    <TextView
+        android:id="@+id/mottoText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="MARI HIDUP SEHAT"
+        android:textSize="16sp"
+        android:layout_marginTop="24dp"
+        android:textColor="@color/black" />
+
+</LinearLayout>

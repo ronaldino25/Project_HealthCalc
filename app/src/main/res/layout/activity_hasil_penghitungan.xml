@@ -1,0 +1,50 @@
+    <LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:layout_gravity="center"
+    android:padding="16dp"
+    android:background="#FFFFFF">
+
+    <ImageView
+        android:id="@+id/gambarBadan"
+        android:layout_width="match_parent"
+        android:layout_height="250dp"
+        android:src="@drawable/fitmen"/>
+    <!-- Title -->
+    <TextView
+        android:id="@+id/ketbobot"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Bobot Normal"
+        android:fontFamily="serif"
+        android:textColor="#000"
+        android:textSize="25sp"
+        android:layout_gravity="center_horizontal"
+        android:paddingBottom="16dp"/>
+
+        <TextView
+            android:id="@+id/bobot"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="22"
+            android:fontFamily="serif"
+            android:textColor="#000"
+            android:textSize="25sp"
+            android:layout_gravity="center_horizontal"
+            android:paddingBottom="16dp"/>
+
+        <TextView
+            android:id="@+id/dekripsibobot"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:paddingBottom="16dp"
+            android:fontFamily="serif"
+            android:text="Bobot Normal"
+            android:textColor="#000"
+            android:textSize="20sp" />
+
+
+    </LinearLayout>
